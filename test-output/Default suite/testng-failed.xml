@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+<<<<<<< Updated upstream
+      <class name="com.torenzo.qa.pomtest.ResetPwdPageTest">
+        <methods>
+          <include name="ResetPwdAndLogin"/>
+          <include name="ResetPwdWithValidPwd"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- com.torenzo.qa.pomtest.ResetPwdPageTest -->
+=======
+      <class name="com.torenzo.qa.pomtest.ItemViewPageTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="verifyItemLastViewTest"/>
+        </methods>
+      </class> <!-- com.torenzo.qa.pomtest.ItemViewPageTest -->
+>>>>>>> Stashed changes
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
